@@ -1,0 +1,84 @@
+.navbar {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 9px;
+  margin-bottom: 5%;
+}
+
+.navbar-logo {
+  color: #fff;
+  justify-self: start;
+  margin-left: 3%;
+  margin-top: 1%;
+  width:220px;
+  cursor: pointer;
+}
+.nav-menu.active {
+  background: #242222;
+  left: 0;
+  opacity: 1;
+  transition: all 0.5s ease;
+  z-index: 1;
+}
+.search-user{
+  display: inline-block;
+  margin-left:70%;
+  margin-top: 1%;
+}
+
+.fa-user{
+  color:black;
+  
+}
+.fa-user:hover{
+color: gray;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  float: right;
+  width: 70vw;
+  margin-left: 35%;
+  margin-right: 20%;
+  margin-top: 0%;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  margin-right: 20px;
+  position: relative;
+}
+
+.nav-links {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.nav-links:hover {
+  color:rgb(235, 82, 52);
+  transition: all 0.2s ease-out;
+  display: inline-block;
+}
+
+
+
+.seperate:hover{
+  text-decoration:underline;
+}
+
+i{
+  size:1px;
+}
+.touch{
+color:rgb(235, 82, 52);
+}
+
+.oc{
+  background-color: purple;
+}

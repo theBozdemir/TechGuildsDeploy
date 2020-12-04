@@ -1,0 +1,47 @@
+.get_in_touch{
+
+    margin:4% ;
+    margin: 5%;
+    text-align: center;
+}
+.contact{
+  margin-right:auto;
+}
+
+
+ .getTouch{
+  color: rgb(235, 82, 52) ;
+  text-align:center;
+ 
+  align-self: center;
+}
+
+.normal{
+  border:none;
+  border-bottom:2px solid lightgrey;
+  width:20%;
+  padding:0px;
+
+}
+.contact textarea{
+  border:none;
+  
+  border-bottom:2px solid lightgrey;
+  width:43%
+}
+
+.fa-paperclip{
+  filter: grayscale(100%);
+  text-align: left;
+}
+.fa-paperclip:hover{
+  filter: grayscale(0%);
+}
+.name, .number{
+  margin-right:3%;
+}
+.subscribe{
+  text-align: center;
+  margin-left: 0px;
+}
+

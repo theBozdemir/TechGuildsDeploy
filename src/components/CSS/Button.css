@@ -1,0 +1,78 @@
+:root {
+  --primary:#fff;
+}
+
+.btn1 {
+  padding: 5px 50px;
+  outline: none;
+  border: solid;
+  border-color: rgb(52,52,235);
+  background-color:#fff;
+  border-width: 1px;
+  font-size: 16px;
+  color: rgb(52,52,235);
+  cursor: pointer;
+
+}
+
+.btn1:hover {
+  transition: all 0.3s ease-out;
+  background-color: transparent;
+  border:solid;
+  color: #fff;
+  background-color: blue;
+  border: 1px solid ;
+  transition: all 0.3s ease-out;
+}
+
+
+.btn2 {
+  padding: 5px 60px;
+  outline: none;
+  border: solid;
+  border-color: rgb(235, 82, 52);
+  background-color: #fff;
+  border-width: 1px;
+  font-size: 16px;
+  color: rgb(235, 82, 52);
+  cursor: pointer;
+  margin-top:1%;
+  margin-left:20%;
+}
+
+.btn2:hover {
+  padding: 5px 56px;
+  transition: all 0.3s ease-out;
+  background-color: transparent;
+  border:solid;
+  color: #fff;
+  background-color: rgb(235, 82, 52);
+  border: 2px solid ;
+  transition: all 0.3s ease-out;
+}
+
+.btn3 {
+  padding: 5px 50px;
+  outline: none;
+  border: solid;
+  border-color: red;
+  border-width: 1px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  margin-top:10px;
+
+
+  background-color: rgb(235, 82, 52);
+}
+
+.btn3:hover {
+  padding: 5px 56px;
+  transition: all 0.3s ease-out;
+  border:solid;
+  color: #fff;
+  background-color: rgb(235, 82, 52);
+  border: 2px solid;
+  transition: all 0.3s ease-out;
+}
+

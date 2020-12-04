@@ -1,0 +1,48 @@
+
+.button-wrap{
+    margin-left: 25%;
+}
+.action-button{
+    padding: 5px 50px;
+    outline: none;
+    border: solid;
+    border-color: rgb(235, 82, 52);
+    border-width: 1px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    margin-top:10px;
+    background-color: rgb(235, 82, 52);
+    margin-left:30%;
+    margin-right:30%;
+
+    }
+
+    .action-button:hover {
+        padding: 5px 56px;
+        transition: all 0.3s ease-out;
+        border:solid;
+        color: #fff;
+        background-color: rgb(250, 82, 52);
+        border: 2px solid;
+        transition: all 0.3s ease-out;
+      }
+
+      .fix{
+          width:30%;
+      }
+
+      .home_button{
+        margin-top: 5%;
+        margin-left:18%;
+      }
+      .service1{
+        display:flex;
+        flex-wrap:nowrap;
+        margin-top:10%;
+      }
+      .service-header p{
+        font-size:50px;
+        margin-top: 5%;
+        margin-left:18.1%;
+      }

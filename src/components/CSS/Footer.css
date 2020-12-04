@@ -1,0 +1,77 @@
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: white;
+  padding: 4rem 0 2rem 0;
+  text-align: center;
+  align-items: center;
+  padding-top:1%;
+  align-items: center;
+
+  border-top:transparent;
+  box-shadow:inset 10px 10px 30px lightgray;
+}
+.social-media{
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start:1;
+  grid-row-end: 2;
+}
+.links{
+display: flex;
+flex-wrap: nowrap;
+justify-content: center;
+}
+.footer-links{
+  margin:20px;
+  margin-right:20%;
+}
+.item4 {
+  display: flex;
+  flex-direction: column;
+  padding-top:50px;
+}
+.item5{
+  display: flex;
+  flex-direction: column;
+  padding-top:50px;
+
+}
+
+
+.item8 li{
+  color:black;
+}
+ul{
+  list-style: none;
+ 
+}
+.footer-link-items h6{
+  color:black;
+}
+.social{
+  margin-left: 30%;
+  margin-top: 1%;
+}
+.social li{
+  border:1px solid black;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 10px;
+  padding:7px;
+  padding-top: 3px;
+  padding-bottom:3px ;
+ 
+  
+  
+}
+.fa-facebook-f{
+  padding-right: 4px;
+  padding-left: 4px;
+}
+.footer-drop{
+  color:black;
+}

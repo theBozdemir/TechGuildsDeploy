@@ -1,0 +1,19 @@
+.googlemaps img{
+    width:100%;
+    margin-top:15%;
+    background-color:rgb(235, 82, 52) ;
+    margin-bottom: 0px;
+  
+  }
+  
+  .map-text-container{
+    display:flex;
+    color: white;
+    margin-top: -4.9px;
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-left:15%;
+    padding-right: 15%;
+    background-color:rgb(235, 82, 52) ;
+    
+  }

@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.75029a01.chunk.css",
+    "main.js": "/static/js/main.760f3d87.chunk.js",
+    "main.js.map": "/static/js/main.760f3d87.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6feb75f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6feb75f6.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.d3d58cd3.chunk.js": "/static/js/2.d3d58cd3.chunk.js",
+    "static/js/2.d3d58cd3.chunk.js.map": "/static/js/2.d3d58cd3.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.1a02f21c.chunk.css.map": "/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.75029a01.chunk.css.map": "/static/css/main.75029a01.chunk.css.map",
+    "static/js/2.d3d58cd3.chunk.js.LICENSE.txt": "/static/js/2.d3d58cd3.chunk.js.LICENSE.txt",
+    "static/media/fix.ef8862c6.png": "/static/media/fix.ef8862c6.png",
+    "static/media/glasses.f2d2fd62.png": "/static/media/glasses.f2d2fd62.png",
+    "static/media/icon.63f4c5ae.png": "/static/media/icon.63f4c5ae.png",
+    "static/media/map.a9bd0a4e.png": "/static/media/map.a9bd0a4e.png",
+    "static/media/Home.css": "/static/media/orange-texture.933d6c86.jpg",
+    "static/media/photo-1.6073ccb8.png": "/static/media/photo-1.6073ccb8.png",
+    "static/media/william.9246071e.png": "/static/media/william.9246071e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6feb75f6.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.d3d58cd3.chunk.js",
+    "static/css/main.75029a01.chunk.css",
+    "static/js/main.760f3d87.chunk.js"
+  ]
+}

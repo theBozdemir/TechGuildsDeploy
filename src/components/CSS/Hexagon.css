@@ -1,0 +1,131 @@
+.hexagon{
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    text-align: center;
+    
+    
+    
+  }
+  
+  
+  .grid6{/*top*/
+  grid-column-start:3;
+  grid-column-end:4 ;
+  grid-row-start:1 ;
+  grid-row-end: 2;
+  
+  }
+  .grid2{/*top-left*/
+  grid-column-start:1;
+  grid-column-end: 2;
+  grid-row-start:2;
+  grid-row-end: 3;
+  
+  }
+  .grid1{/*bottom-left*/
+  grid-column-start:1;
+  grid-column-end: 2;
+  grid-row-start:4;
+  grid-row-end: 5;
+  
+  }
+  .grid3{/*top-right*/
+  grid-column-start:5;
+  grid-column-end: 6;
+  grid-row-start:2;
+  grid-row-end: 3;
+  
+  }
+  .grid4{/*bottom-right*/
+  grid-column-start:5;
+  grid-column-end: 6;
+  grid-row-start:4;
+  grid-row-end: 5;
+  /**/
+  
+  }
+  
+  .grid5{
+  grid-column-start:3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  
+  }
+  
+  .grid7{
+  grid-column-start:3;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  }
+  
+  .grid8{
+  grid-column-start:1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  }
+  
+  .grid11{
+  grid-column-start:1;
+  grid-column-end: 2;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  }
+  .grid9{
+    grid-column-start:3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .grid10{
+  grid-column-start:5;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  }
+  .grid12{
+    grid-column-start:5;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  }
+  .grid13{
+  grid-column-start:3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  }
+  .grid14{
+    grid-column-start:3;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 7;
+  }
+  .gridAll{
+    border:5px solid lightgray;
+    border-radius: 50%;
+    
+    
+  }
+  .gridAll:hover{
+    border-color: rgb(235, 82, 52);
+  }
+  
+  .inner{
+    border:1px solid #fff;
+    border-color: white;
+    border-radius:50%;
+    padding:20px;
+    background-color: lightgray;
+  }
+  .inner:hover{
+    background-color:rgb(235, 82, 52) ;
+    border-color: rgb(235, 82, 52);
+  }
+  
