@@ -1,9 +1,8 @@
 .navbar {
-  height: 80px;
+  height: 40px;
   display: flex;
   align-items: center;
-  margin-bottom: 5%;
-
+  margin-bottom: 10%;
 }
 
 .menu-icon{
@@ -59,7 +58,7 @@ color: gray;
   align-items: center;
   flex-wrap: wrap;
   white-space: nowrap;
-  height: 80px;
+  height: 40px;
   margin-right: 20px;
   position: relative;
 }

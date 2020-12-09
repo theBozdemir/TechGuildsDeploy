@@ -210,14 +210,13 @@
     grid-template-rows: repeat(3, 1fr );
     grid-column-gap: 30px;
     grid-row-gap: 15px;
-    width:130%;
     justify-content: center;
 
     
   }
   
   .client{
-    width:100%;
+    width:5vw;
     filter: grayscale(100%);
   }
 

@@ -155,12 +155,19 @@
       width: 32vh ;
       margin-right:2vw;
     }
+    .gridAll{
+      border:3px
+    }
     
   }  @media screen and (max-width:360px){
     .hexagon{
       grid-row-gap: 2.2vh;
       width: 37vh ;
       margin-right:2vw;
+      
+    }
+    .gridAll{
+      border:3px
     }
   }
   @media screen and (max-width:320px){
@@ -169,11 +176,17 @@
       width: 42vh ;
       margin-right:2vw;
     }
+    .gridAll{
+      border:3px
+    }
   }
   @media screen and (max-width:280px){
     .hexagon{
       grid-row-gap: 3.5vw;
       width:75vw ;
       margin-right:2vw;
+    }
+    .gridAll{
+      border:3px
     }
   }
