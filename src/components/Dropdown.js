@@ -1,9 +1,9 @@
 import { MenuItems } from "./MenuItems";
 import { Link } from "react-router-dom";
-
+import './CSS/Dropdown.css'
 function Dropdown() {
   return (
-    <div
+    <div className='dropdown'
       style={{
         position: "absolute",
         marginTop: 80,
@@ -13,8 +13,8 @@ function Dropdown() {
     >
       {MenuItems.map((item, index) => {
         return (
-          <h6>
-            <Link style={{ color: "black" }} to={item.path} key={index}>
+          <h6 className='drop-links'>
+            <Link  style={{ color: "black" }} to={item.path} key={index}>
               {item.title}
             </Link>
           </h6>

@@ -1,48 +1,153 @@
 
-.button-wrap{
-    margin-left: 25%;
-}
-.action-button{
-    padding: 5px 50px;
-    outline: none;
-    border: solid;
-    border-color: rgb(235, 82, 52);
-    border-width: 1px;
-    font-size: 18px;
-    color: white;
-    cursor: pointer;
-    margin-top:10px;
-    background-color: rgb(235, 82, 52);
-    margin-left:30%;
-    margin-right:30%;
 
+    .button-wrap{
+      margin-top: 5vw;
+      text-align: center;
+    }
+    .service-wrapper{
+      margin-left: 4%;
+      margin-right: 4%;
+    }
+    .action-button{
+      outline: none;
+      border: solid;
+      width: 20%;
+      border-color: red;
+      border-width: 1px;
+      font-size:1vw;
+      color: white;
+      cursor: pointer;
+      margin-top:10px;
+      background-color: rgb(235, 82, 52);
+    }
+    .action-button h2{
+      font-size: 1.8vw;
+    }
+    .home_button{
+      margin-top: 5%;
+      margin-left:18%;
     }
 
     .action-button:hover {
-        padding: 5px 56px;
-        transition: all 0.3s ease-out;
-        border:solid;
-        color: #fff;
-        background-color: rgb(250, 82, 52);
-        border: 2px solid;
-        transition: all 0.3s ease-out;
+      width: 21%;
+      transition: all 0.3s ease-out;
+      color: #fff;
+      background-color: rgb(235, 82, 52);
+      transition: all 0.3s ease-out;
       }
 
-      .fix{
-          width:30%;
-      }
-
-      .home_button{
-        margin-top: 5%;
-        margin-left:18%;
-      }
-      .service1{
-        display:flex;
-        flex-wrap:nowrap;
-        margin-top:10%;
-      }
       .service-header p{
-        font-size:50px;
+        font-size:3.5vw;
         margin-top: 5%;
         margin-left:18.1%;
       }
+      .service1 h2, .service2 h2, .service3 h2, .service4 h2, .service5 h2, .service6 h2, .service7 h2{
+        font-size: 2.2vw;
+      }
+      .service1 p, .service2 p, .service3 p, .service4 p, .service5 p, .service6 p, .service7 p{
+        font-size: 1.2vw;
+      }
+
+
+      .fix{
+        width:20vw;
+      }
+
+      .fix{
+        grid-area:fix;
+      }
+
+
+      .service-implement{
+        grid-area:implement;
+      }
+      .service-support{
+        grid-area: support;
+      }
+      .service-training{
+        grid-area: training;
+      }
+      .service-marketing{
+        grid-area:marketing;
+      }
+      .service-managed{
+        grid-area:management;
+      }
+      .service-team{
+        grid-area:team;
+      }
+      .service-audit{
+        grid-area:audit;
+      }
+
+      
+      .service1{
+        display: grid;
+        grid-template-areas:'fix fix  implement';
+        margin-top:10% ;
+        grid-column-gap:10vw;
+        justify-content: center;
+      }
+ 
+
+
+
+
+      .service2{
+        display: grid;
+        grid-template-areas:'support fix fix ' ;
+        margin-top:10%;
+        grid-column-gap: 10vw;
+        justify-content: center;
+
+      }
+
+      .service3{
+        display: grid;
+        grid-template-areas:'fix fix  training' ;
+        margin-top:10%;
+        grid-column-gap: 10vw;
+        justify-content: center;
+
+      }
+
+
+      .service4{
+        display: grid;
+        grid-template-areas:'marketing  fix fix' ;
+        margin-top:10%;
+        grid-column-gap: 10vw;
+        justify-content: center;
+
+      }
+
+
+      .service5{
+        display: grid;
+        grid-template-areas:' fix fix management' ;
+        margin-top:10%;
+        grid-column-gap: 10vw;
+        justify-content: center;
+
+      }
+
+
+      .service6{
+        display: grid;
+        grid-template-areas:'team  fix fix' ;
+        margin-top:10%;
+        grid-column-gap: 10vw;
+        justify-content: center;
+
+      }
+
+      .service7{
+        display: grid;
+        grid-template-areas:' fix fix audit' ;
+        margin-top:10%;
+        grid-column-gap: 10vw;
+        justify-content: center;
+        
+
+      }
+      

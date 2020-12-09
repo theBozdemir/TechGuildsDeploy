@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="footer-container">
-      <ul className="social">
+      <div className="social">
         <li>
           <i class="fab fa-instagram"></i>
         </li>
@@ -18,7 +18,7 @@ function Footer() {
         <li>
           <i class="fab fa-facebook-f"></i>
         </li>
-      </ul>
+      </div>
 
       <div class="footer-links">
         <div className="footer-link-wrapper">

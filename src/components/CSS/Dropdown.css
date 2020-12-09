@@ -1,0 +1,12 @@
+.drop-links{
+    color: black;
+}
+@media screen and (max-width:960px){
+
+.dropdown{
+margin-left:47%;
+}
+.dropdown h6{
+    color: white;
+}
+}

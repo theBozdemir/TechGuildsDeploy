@@ -33,7 +33,9 @@ const Loginuser = () => {
               <input className="checkbox" type="checkbox" />
               <label className="signed-in">keep me signed in</label>
               <br />
-              <button className="sign">SIGN IN</button>
+              <button className="sign">
+                <h2>SIGN IN</h2>
+              </button>
               <Link>
                 <p className="pass">Forgot Password</p>
               </Link>

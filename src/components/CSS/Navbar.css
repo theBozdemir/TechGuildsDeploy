@@ -1,37 +1,45 @@
 .navbar {
   height: 80px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  font-size: 9px;
   margin-bottom: 5%;
+
 }
 
+.menu-icon{
+  display: none;
+}
+.navbar ul{
+  margin-left: 45vw;
+}
 .navbar-logo {
   color: #fff;
   justify-self: start;
-  margin-left: 3%;
+  margin-left: 3vw;
   margin-top: 1%;
-  width:220px;
+  width: 12%;
   cursor: pointer;
 }
-.nav-menu.active {
-  background: #242222;
-  left: 0;
-  opacity: 1;
-  transition: all 0.5s ease;
-  z-index: 1;
+.searchNav, .userNav{
+  font-size: 1vw;
 }
-.search-user{
-  display: inline-block;
-  margin-left:70%;
-  margin-top: 1%;
-}
-
-.fa-user{
+.userNav{
   color:black;
+  font-size: 1vw;
   
 }
+
+.search-user{
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+
+ /* margin-left:70%;
+  margin-top: 1%; */
+
+}
+
+
 .fa-user:hover{
 color: gray;
 }
@@ -49,6 +57,8 @@ color: gray;
 .nav-item {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  white-space: nowrap;
   height: 80px;
   margin-right: 20px;
   position: relative;
@@ -57,7 +67,7 @@ color: gray;
 .nav-links {
   color: black;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 1vmax;
 }
 
 .nav-links:hover {
@@ -66,7 +76,9 @@ color: gray;
   display: inline-block;
 }
 
-
+.seperate{
+  color:rgb(235, 82, 52);
+}
 
 .seperate:hover{
   text-decoration:underline;
@@ -79,6 +91,72 @@ i{
 color:rgb(235, 82, 52);
 }
 
-.oc{
-  background-color: purple;
+@media screen and (max-width:960px){
+  .navbar ul{
+    position: relative;
+    background-color: tomato;
+    width: 100%;
+    z-index: 1;
+    border-radius: 20px 20px 20px 20px;
+    margin: 30px;    
+    
+  }
+  .nav-menu{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height:90vh;
+    position: absolute;
+    top:80px;
+    opacity: 1;
+    transition: all 0.5s ease;
+    display: none;
+  }
+  .search-user{
+    display: none;
+  }
+  .nav-item:hover{
+    width: 100%;
+  }
+  .nav-menu.active{
+    background: #242222;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    width: 100%;
+  }
+  .nav-links{
+    text-align: center;
+    width: 100%;
+    display: table;
+    font-size: 2vw;
+    color: #fff;
+  }
+  .nav-links:hover{
+    color: #fff;
+  }
+    .menu-icon{
+      display: block;
+      position: absolute;
+      top:0;
+      right: 0;
+      transform: translate(-100%,60%);
+      font-size:3vw;
+      cursor: pointer;
+      z-index: 1;
+    }
+    .fa-times{
+      color:black;
+      size:10%;
+      margin-bottom: 1%;
+    }
+
+    .navbar-logo {
+      justify-self: start;
+      margin-left: 3%;
+      margin-top: 1%;
+      width: 15%;
+      cursor: pointer;
+    }
 }

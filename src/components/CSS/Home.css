@@ -12,27 +12,47 @@
     margin-right: 15%;
   }
 
+
   .container-1{
-    display:flex;
+   /* display:flex;
     flex-wrap:nowrap;
-    margin-top:200px;
-    justify-content: center;
-    padding-left: 0px;
     
+    justify-content: center;
+    padding-left: 0px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr );
+    grid-template-rows: repeat(1, 1fr );
+    grid-column-gap: 0px;
+    grid-row-gap:0px;
+    text-align: center;
+    margin-left: 0px;
+    width:100%;
+    margin-top:15%;
   
   }
 
   .container-6{
-    display:flex;
+   /* display:flex;
     flex-wrap:nowrap;
     margin-top:200px;
     justify-content: center;
-    padding-left: 0px;
+    padding-left: 0px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr );
+    grid-template-rows: repeat(1, 1fr );
+    grid-column-gap: 0px;
+    grid-row-gap:0px;
+    text-align: center;
+    margin-left: 0px;
+    width:100%;
+    margin-top:15%;
     
   }
-
+  .text1-heading{
+    font-size:2.5vw;
+  }
   .persons{
-    width:30%;
+    width:70%;
   }
 
   .persons:hover{
@@ -41,8 +61,8 @@
   }
 
   .nurse{
-    width:30%;
-    margin-left:400px;
+    width:70%;
+   
   }
 
   .nurse:hover{
@@ -51,38 +71,55 @@
   }
 
   .canadian-nurse{
-    font-size: 30px;
+    font-size:2vw;
     text-decoration: underline;
   }
 
   .context1{
-    font-size: 30px;
+    font-size: 2vw;
   }
 
   .context2{
-    font-size: 30px;
+    font-size: 2vw;
   }
 
   .text-1{
-    max-width:25%;
+    max-width:100%;
+    text-align: left;
   }
 
+
   .container-2{
-    display:flex;
-    flex-wrap:nowrap;
-    margin-top:200px;
-    margin-left: 10px;
-  
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr );
+    grid-template-rows: repeat(1, 1fr );
+    grid-column-gap:0vw;
+    grid-row-gap: 0px;
+    text-align: center;
+    margin-top: 15%;
+    width:100%;
+    margin-left: 0vw;
+
   }
   p{
     font-weight: lighter;
   }
   
   .text-2{
-    max-width:25%;
+    grid-column-start:2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    max-width:70%;
+    justify-items: self-end;
+    text-align: left;
   }
-.read{
-    font-size: 25px;
+  .text-2 h1{
+    font-size: 2.5vw;
+  }
+  .read{
+    font-size: 2.2vw;
     color:rgb(235, 82, 52);
   }
   .read:hover{
@@ -90,10 +127,12 @@
   }
   .service{
     color:rgb(235, 82, 52);
+    font-size: 2.2vw;
   
   }
   .health{
-    color:rgb(149,235,52)
+    color:rgb(149,235,52);
+    font-size:1.8vw;
   }
   
   .container-3{
@@ -110,23 +149,45 @@
   .container-4{
   
     margin-left: 40%;
-    margin-top: 200px;
+    margin-top: 7vw;
+  }
+  .brands{
+    font-size: 2.5vw;
+    text-align: center;
   }
   .header4{
     margin-bottom: 30px;
+    font-size: 2.5vw;
   }
   blockquote{
     margin-left: 30px;
+ 
+  }
+  blockquote h3{
+    font-size: 1.5vw;
   }
   
   .text5 p{
   text-decoration: underline;
   }
-  
+
+  .text5-container{
+    grid-area: right;
+    margin-right: 0%;
+  }
+  .user-icons{
+    grid-area: left;
+  }
   .container-5{
-    display:flex;
-    flex-wrap:nowrap;
-    margin-top:200px;
+    display: grid;
+    grid-template-areas:'left right' ;
+    grid-column-gap:20%;
+    grid-row-gap: 0px;
+    margin-top: 5%;
+
+  }
+  .william{
+    width: 40%;
   }
 
 
@@ -149,10 +210,9 @@
     grid-template-rows: repeat(3, 1fr );
     grid-column-gap: 30px;
     grid-row-gap: 15px;
-    text-align: center;
-    margin-left: 0px;
-    width:100%;
-    
+    width:130%;
+    justify-content: center;
+
     
   }
   
@@ -168,59 +228,85 @@
   .container-5 h6{
     color:rgb(235, 180, 52);
   }
+  .text5-header{
+    font-size: 2vw;
+  }
+  .text5-container h6{
+    font-size: 1vw;
+  }
+  .text5-container h3{
+    font-size: 1.4vw;
+  }
+  .user1{grid-area:left1;}
+  .user2{grid-area:left2}
+  .user3{grid-area:right1;}
+  .user4{grid-area:right2;}
+  .user5{grid-area:right3;}
 
   .user-icons{
+    position:relative;
+    width: 25vw;
+    height: 25vw;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
-    text-align: center;
+    grid-template-areas: '. left1  .'
+                         '. left2  .'
+                         '. . right1 '
+                         '. . right2 '
+                         '. . right3 ';
+    text-align: left;
     border:1px solid transparent;
-    margin-right:-50px;
-    padding-left: 200px;
-    padding-bottom: 30px;
-    padding-top:30px;
-    padding:50px 100px 50px 100px;
+    padding-bottom: 5%;
     background-image: url('../images/orange-texture.jpg');
-  }
-  
-  .user1{/*top*/
-    grid-column-start:1;
-    grid-column-end:2 ;
-    grid-row-start:1 ;
-    grid-row-end: 2;
     
-    }
+  }
 
-    .user2{
-      grid-column-start:1;
-      grid-column-end:2 ;
-      grid-row-start:2 ;
-      grid-row-end: 3;
-    }
 
-    .user3{
-      grid-column-start:2;
-      grid-column-end:3 ;
-      grid-row-start:3 ;
-      grid-row-end: 4;
-    }
+  .user-icons::after{
+    content: "";
 
-    .user4{
-      grid-column-start:2;
-      grid-column-end:3 ;
-      grid-row-start:4 ;
-      grid-row-end: 5;
-    }
+  }
+  .user{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
 
-    .user5{
-      grid-column-start:2;
-      grid-column-end:3 ;
-      grid-row-start:5 ;
-      grid-row-end: 6;
-    }
     .user-icons:hover{
       transform: scale(1.1);
       transition: 300ms;
     }
+
+    .carousel{
+      z-index: -1;
+    }
+    .user{
+      font-size: 2.5vw;
+    }
+
+    @media screen and (max-width:960px){
+
+      .container-5{
+        width: 100%;
+      }
+      .persons{
+        width: 100%;
+      }
+      .nurse{
+        width: 100%;
+      }
+
+      .container-6{
+        margin-top:25%;
+      }
+      .text-2{
+        margin-left: 30%;
+      }
+
+
+    }
+    @media screen and (max-width:375px){
+      .text-2{
+        padding-top: 5vh;
+      }
+    }
+

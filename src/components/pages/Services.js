@@ -18,35 +18,37 @@ function Services() {
           </p>
         </Link>
       </div>
+      
       <div className="service-header">
-        <p>SERVICES</p>
+        <p><b>SERVICES</b></p>
       </div>
-
+      <div className='service-wrapper'>
       <div className="service1">
         <img className="fix" src={Photo1} alt="fix" />
 
-        <div className="text-2">
-          <h2 classname="container2-heading">
+        <div className="service-implement">
+          <h2 classname="title">
             <b>SITECORE IMPLEMENTATION</b>
           </h2>
           <br />
           <p>
             With over 66000 hours developing
             <br />
-            some of the mpst complex Sitecore implementations in North America
+            some of the mpst complex Sitecore<br/> implementations in North America
             and <br />
             beyond, TechGuilds has the eperience <br />
             to make your project succeed.
           </p>
           <br />
-          <p className="read">READ MORE</p>
+          <p className="read"><b>READ MORE</b><i class="fas fa-angle-double-right"></i></p>
         </div>
       </div>
-      <div className="container-1">
-        <div className="text-1">
-          <h3>
+
+      <div className="service2">
+        <div className="service-support">
+          <h2 classname="title">
             <b>SITECORE SUPPORT</b>
-          </h3>
+          </h2>
           <br />
           <p>
             Minimize impact and disruption to your <br />
@@ -57,15 +59,21 @@ function Services() {
             email.
           </p>
           <br />
-          <p className="read">READ MORE</p>
-        </div>
-        <img className="fix" src={Photo1} alt="fix" />
+          <p className="read"><b>READ MORE</b><i class="fas fa-angle-double-right"></i></p>        
+          </div>
+         
+          <img className="fix" src={Photo1} alt="fix" />
+      
       </div>
-      <div className="container-2">
-        <img className="fix" src={Photo1} alt="fix" />
 
-        <div className="text-2">
-          <h2 classname="container2-heading">
+
+      <div className="service3">
+        
+        <img className="fix" src={Photo1} alt="fix" />
+        
+
+        <div className="service-training">
+          <h2 classname="title">
             <b>SITECORE TRAINING</b>
           </h2>
           <br />
@@ -78,14 +86,16 @@ function Services() {
           </p>
 
           <br />
-          <p className="read">READ MORE</p>
-        </div>
+          <p className="read"><b>READ MORE</b><i class="fas fa-angle-double-right"></i></p>        
+          </div>
       </div>
-      <div className="container-1">
-        <div className="text-1">
-          <h3>
+
+
+      <div className="service4">
+        <div className="service-marketing">
+          <h2 classname="title">
             <b>MARKETING DESIGN</b>
-          </h3>
+          </h2>
           <br />
           <p>
             Turn your digital platform into your
@@ -95,15 +105,18 @@ function Services() {
             across any channel.
           </p>
           <br />
-          <p className="read">READ MORE</p>
+          <p className="read"><b>READ MORE</b><i class="fas fa-angle-double-right"></i></p>
         </div>
-        <img className="fix" src={Photo1} alt="fix" />
+        
+            <img className="fix" src={Photo1} alt="fix" />
+        
       </div>
-      <div className="container-2">
+
+      <div className="service5">
         <img className="fix" src={Photo1} alt="fix" />
 
-        <div className="text-2">
-          <h2 classname="container2-heading">
+        <div className="service-managed">
+          <h2 classname="title">
             <b>MANAGED SERVICES</b>
           </h2>{" "}
           <br />
@@ -119,14 +132,16 @@ function Services() {
             <br /> do it for you.
           </p>
           <br />
-          <p className="read">READ MORE</p>
-        </div>
+          <p className="read"><b>READ MORE</b><i class="fas fa-angle-double-right"></i></p>        
+          </div>
       </div>
-      <div className="container-1">
-        <div className="text-1">
-          <h3>
+
+      
+      <div className="service6">
+        <div className="service-team">
+          <h2 classname="title">
             <b>TEAM AUGMENTATION </b>
-          </h3>
+          </h2>
           <br />
           <p>
             Push the envelope on Sitecore projects
@@ -139,15 +154,17 @@ function Services() {
             <br /> crunch{" "}
           </p>
           <br />
-          <p className="read">READ MORE</p>
-        </div>
+          <p className="read"><b>READ MORE</b><i class="fas fa-angle-double-right"></i></p>        
+          </div>
         <img className="fix" src={Photo1} alt="fix" />
       </div>
-      <div className="container-2">
+
+
+      <div className="service7">
         <img className="fix" src={Photo1} alt="fix" />
 
-        <div className="text-2">
-          <h2 classname="container2-heading">
+        <div className="service-audit">
+          <h2 classname="title">
             <b>SITECORE AUDIT</b>
           </h2>
           <br />
@@ -161,10 +178,11 @@ function Services() {
             customer experiences.
           </p>
           <br />
-          <p className="read">READ MORE</p>
-        </div>
+          <p className="read"><b>READ MORE</b><i class="fas fa-angle-double-right"></i></p>        
+          </div>
       </div>
-
+      </div> 
+      <br/>
       <div className="button-wrap">
         <button className="action-button">
           <h2>Call To Action</h2>

@@ -24,7 +24,7 @@ function Home() {
   };
   return (
     <div className="homewrapper">
-      <Carousel activeIndex={index} interval={null} onSelect={handleSelect}>
+      <Carousel activeIndex={index} interval={null} onSelect={handleSelect} className='carousel'>
         <Carousel.Item>
           <div>
             <img className="icon" src={Icon} alt="icon" />
@@ -38,14 +38,13 @@ function Home() {
       <div className="general-container">
         <div className="container-1">
           <div className="text-1">
-            <h1>
+            <h1 className='text1-heading'>
               <b>WHO WE ARE</b>
             </h1>
             <br />
             <p className="context1">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut abore et dolore magna aliqua. Ut enim
-              ad minim veniam
+              Lorem ipsum dolor sit amet, onsectetur<br/> adipiscing elit, sed do
+              eiusmod tempor<br/> incididunt ut abore et dolore magna<br/> aliqua.
             </p>
             <Link to="/call-to-action" className="nav-links-mobile"></Link>
             <Button />
@@ -54,18 +53,17 @@ function Home() {
         </div>
 
         <div className="container-2">
-          <div>
+          <div className='hexagon-home'>
             <Hexagon />
           </div>
           <div className="text-2">
-            <h1 classname="container2-heading">
+            <h1 classname="text2-heading">
               <b>
                 TELL US WHAT <br />
                 YOU'RE LOOKING FOR
               </b>
             </h1>
             <h3 className="service">SERVICE HEADING</h3>
-            <br />
             <p className="context2">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut abore et dolore magna aliqua. Ut enim
@@ -79,7 +77,7 @@ function Home() {
         </div>
         <div className="container-6">
           <div className="text-1">
-            <h1>
+            <h1 className="text1-heading">
               <b>GET STARTED</b>
             </h1>
             <br />
@@ -171,33 +169,33 @@ function Home() {
         <div className="container-5">
           <div className="user-icons">
             <div className="user1">
-              <i class="user fas fa-sort-down fa-2x"></i>
-              <i class="user fas fa-user-friends fa-3x"></i>
-              <AiOutlineLine />
+              <i class="user fas fa-sort-down fa-2x"><i class="user fas fa-user-friends fa-3x"><AiOutlineLine /></i></i>
+              
             </div>
 
             <div className="user2">
-              <i class="user fas fa-sort-down fa-2x"></i>
-              <i class="user fas fa-user-friends fa-3x"></i>
-              <AiOutlineMinus />
+              <i class="user fas fa-sort-down fa-2x"><i class="user fas fa-user-friends fa-3x"><AiOutlineMinus /></i></i>
+              
+              
             </div>
 
             <div className="user3">
-              <i class="user fas user3 fas fa-user fa-3x "></i>
-              <AiOutlineMinus />
+              <i class="user fas user3 fas fa-user fa-3x "><AiOutlineMinus /></i>
+              
             </div>
             <div className="user4">
-              <i class="user fas fa-user fa-3x"></i>
-              <AiOutlineMinus />
+              <i class="user fas fa-user fa-3x"><AiOutlineMinus /></i>
+              
             </div>
             <div className="user5">
-              <i class="user fas fa-user fa-3x"></i>
-              <AiOutlineMinus />
+              <i class="user fas fa-user fa-3x"><AiOutlineMinus /></i>
+              
             </div>
           </div>
-          <div classname="text5">
-            <h2>
-              {" "}
+
+          <div className='text5-container'>          
+            <div classname="text5">
+            <h2 className='text5-header'>
               <b>KEEP LEARNING</b>
             </h2>
             <h6>BLOG | CATEGORY</h6>
@@ -208,6 +206,8 @@ function Home() {
             </h3>
             <img className="william" src={william} alt="william" />
           </div>
+          </div>
+
         </div>
       </div>
 

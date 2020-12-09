@@ -1,25 +1,22 @@
-*{
 
-
-}
 .loginContainer{
-    
+    display: grid;
     border-radius: 5px;
     background-color: #fff;
     padding: 0px;
-    margin-left: 40%;
-    margin-right: 40%;
+    justify-content: center;
     
 }
 
 .login {
     margin-top: 5%;
     width: 100%;
-    padding: 12px 20px;
+    padding: 1vw 1vw;
     display: inline-block;
     border:1px solid rgb(235, 82, 52);
     border-radius: 5px;
     box-shadow:25px  20px 50px  gray;
+    resize: horizontal;
 }
 .login .norm{
     width:100%;
@@ -36,13 +33,15 @@
     width:100%;
     background-color:rgb(235, 82, 52);
     color: white;
-    padding: 14px 20px;
+    padding:1vh 1vh;
     margin: 8px 0;
     border: none;
     cursor: pointer;}
-
+.sign h2{
+    font-size: 1.2vw;
+}
 .loginHeader{
-        font-size:20px;
+        font-size: 1.5vmax;;
         text-align: center;
     }
 img{
@@ -51,6 +50,7 @@ img{
     }
 .signed-in{
     margin-left:5%;
+    font-size: 1.2vmax;
 }
 
 .go-back{

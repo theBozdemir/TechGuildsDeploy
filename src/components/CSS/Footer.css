@@ -5,12 +5,11 @@
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   background-color: white;
-  padding: 4rem 0 2rem 0;
   text-align: center;
   align-items: center;
-  padding-top:1%;
+  padding-top:5%;
+  padding-bottom: 5%;
   align-items: center;
-
   border-top:transparent;
   box-shadow:inset 10px 10px 30px lightgray;
 }
@@ -20,25 +19,58 @@
   grid-row-start:1;
   grid-row-end: 2;
 }
+.item1{
+grid-area:one;
+}
+
+.item2{
+  grid-area:two;
+}
+
+.item3{
+  grid-area:three;
+}
+
+.item4{
+  grid-area:four;
+}
+
+.item5{
+  grid-area:five;
+  white-space: nowrap;
+}
+
+.item6{
+  grid-area:six;
+}
+
+
 .links{
-display: flex;
-flex-wrap: nowrap;
-justify-content: center;
+display: grid;
+grid-template-areas: 'one two three four five six';
+grid-column-gap: 5%;
+justify-content: end;
+align-items: start;
 }
 .footer-links{
   margin:20px;
   margin-right:20%;
 }
+.footer-links h6{
+  font-size:1vw;
+}
+.footer-links h6::after{
+  font-size: 0.7vmax;
+}
 .item4 {
   display: flex;
   flex-direction: column;
-  padding-top:50px;
+  font-size: 1vw;
 }
 .item5{
   display: flex;
   flex-direction: column;
-  padding-top:50px;
-
+  font-size: 1vw;
 }
 
 
@@ -53,7 +85,7 @@ ul{
   color:black;
 }
 .social{
-  margin-left: 30%;
+  margin-left: -50%;
   margin-top: 1%;
 }
 .social li{
@@ -61,10 +93,10 @@ ul{
   border-radius: 5px;
   display: inline-block;
   margin-right: 10px;
-  padding:7px;
-  padding-top: 3px;
-  padding-bottom:3px ;
- 
+  padding:0.5%;
+  padding-top: 0.1%;
+  padding-bottom: 0.1%; ;
+  font-size: 1vw;
   
   
 }
@@ -74,4 +106,14 @@ ul{
 }
 .footer-drop{
   color:black;
+}
+.footer-link-items{
+margin-left: 4%;
+
+}
+@media screen and (max-width:960px){
+  .social{
+    background-color: white;
+    margin-left: -25%;
+  }
 }

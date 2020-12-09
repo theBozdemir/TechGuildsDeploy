@@ -1,9 +1,10 @@
 import { MenuItems } from "./MenuItems2";
 import { Link } from "react-router-dom";
+import './CSS/Dropdown.css'
 
 function Dropdown() {
   return (
-    <div
+    <div className='dropdown'
       style={{
         position: "absolute",
         marginTop: 80,

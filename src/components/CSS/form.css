@@ -1,19 +1,24 @@
 .get_in_touch{
-
-    margin:4% ;
-    margin: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     text-align: center;
 }
 .contact{
-  margin-right:auto;
+  resize: horizontal;
 }
+input::placeholder{
+  font-size:0.9vmax ;
 
+}
+textarea::placeholder{
+  font-size: 0.9vmax;
+}
 
  .getTouch{
   color: rgb(235, 82, 52) ;
   text-align:center;
- 
   align-self: center;
+  font-size: 1.7vw;
 }
 
 .normal{
@@ -25,7 +30,6 @@
 }
 .contact textarea{
   border:none;
-  
   border-bottom:2px solid lightgrey;
   width:43%
 }
@@ -33,6 +37,10 @@
 .fa-paperclip{
   filter: grayscale(100%);
   text-align: left;
+  font-size: 0.9vw;
+}
+.attach{
+  font-size: 0.9vmax;
 }
 .fa-paperclip:hover{
   filter: grayscale(0%);
@@ -43,5 +51,10 @@
 .subscribe{
   text-align: center;
   margin-left: 0px;
+  font-size: 0.9vmax;
+}
+input[type='checkbox']{
+ width: 0.7vmax;
+ height:0.7vwax;
 }
 
